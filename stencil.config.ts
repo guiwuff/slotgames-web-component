@@ -1,0 +1,14 @@
+import { Config } from '@stencil/core';
+
+export const config: Config = {
+  namespace: 'slotgames',
+  globalScript: 'src/globals/index.ts',
+  outputTargets:[
+    { type: 'dist' },
+    { type: 'docs' },
+    {
+      type: 'www',
+      serviceWorker: null // disable service workers
+    }
+  ]
+};
