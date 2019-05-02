@@ -1,0 +1,1 @@
+// slotgames: ES Module

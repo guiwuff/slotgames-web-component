@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "tag": "slot-icon",
+      "dependencies": [],
+      "componentClass": "SlotIcon",
+      "componentPath": "components/slot-icon/slot-icon.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "fill",
+          "type": "String",
+          "attr": "fill"
+        },
+        {
+          "name": "icon",
+          "type": "String",
+          "attr": "icon"
+        },
+        {
+          "name": "scale",
+          "type": "Number",
+          "attr": "scale"
+        },
+        {
+          "name": "stroke",
+          "type": "String",
+          "attr": "stroke"
+        },
+        {
+          "name": "strokeWidth",
+          "type": "String",
+          "attr": "stroke-width"
+        }
+      ],
+      "hostElement": {
+        "name": "slotIcon"
+      }
+    },
+    {
+      "tag": "slot-palugadabet",
+      "dependencies": [
+        "slot-icon"
+      ],
+      "componentClass": "SlotPalugadabet",
+      "componentPath": "components/slot-palugadabet/slot-palugadabet.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "link",
+          "type": "String",
+          "attr": "link"
+        },
+        {
+          "name": "name",
+          "type": "String",
+          "attr": "name"
+        },
+        {
+          "name": "withText",
+          "type": "String",
+          "attr": "with-text"
+        }
+      ]
+    },
+    {
+      "tag": "slot-palugadabet-badge",
+      "dependencies": [
+        "slot-icon"
+      ],
+      "componentClass": "SlotPalugadabetBadge",
+      "componentPath": "components/slot-palugadabet-badge/slot-palugadabet-badge.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "link",
+          "type": "String",
+          "attr": "link"
+        },
+        {
+          "name": "name",
+          "type": "String",
+          "attr": "name"
+        },
+        {
+          "name": "textMode",
+          "type": "String",
+          "attr": "text-mode"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.16.2",
+    "typescriptVersion": "3.2.2"
+  },
+  "bundles": [],
+  "global": "globals/index.js"
+}

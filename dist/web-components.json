@@ -1,0 +1,77 @@
+{
+  "tags": [
+    {
+      "label": "slot-icon",
+      "description": "",
+      "attributes": [
+        {
+          "label": "fill",
+          "description": "Fill color (default 'none')",
+          "required": false
+        },
+        {
+          "label": "icon",
+          "description": "The Icon name (default '')",
+          "required": false
+        },
+        {
+          "label": "scale",
+          "description": "Scale the icon size (default 1)",
+          "required": false
+        },
+        {
+          "label": "stroke",
+          "description": "Stroke color (default 'currentColor)",
+          "required": false
+        },
+        {
+          "label": "stroke-width",
+          "description": "Stroke width (default 2)",
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "slot-palugadabet-badge",
+      "description": "",
+      "attributes": [
+        {
+          "label": "link",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "name",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "text-mode",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "slot-palugadabet",
+      "description": "",
+      "attributes": [
+        {
+          "label": "link",
+          "description": "URL for link attached to the Brand",
+          "required": false
+        },
+        {
+          "label": "name",
+          "description": "Your Brand, (default to 'Brand')",
+          "required": false
+        },
+        {
+          "label": "with-text",
+          "description": "(optional) Display along with the Brand Text",
+          "required": false
+        }
+      ]
+    }
+  ]
+}
