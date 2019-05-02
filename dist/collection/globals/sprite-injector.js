@@ -92,5 +92,5 @@ function injectSprites(document) {
     return SVGSpriteInject;
 }
 export const injectingSprites = () => {
-    SVGSpriteInject('/assets/svgs/slot-sprites.svg', {});
+    SVGSpriteInject('https://cdn.jsdelivr.net/gh/guiwuff/slotgames-web-component@master/dist/collection/assets/svgs/slot-sprites.svg', {});
 };
