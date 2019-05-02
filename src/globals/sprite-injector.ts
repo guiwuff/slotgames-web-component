@@ -105,5 +105,5 @@ function injectSprites(document: HTMLDocument) {
 }
 
 export const injectingSprites = () => {
-  SVGSpriteInject('/assets/svgs/slot-sprites.svg', {});
+  SVGSpriteInject('https://cdn.jsdelivr.net/gh/guiwuff/slotgames-web-component@master/dist/collection/assets/svgs/slot-sprites.svg', {});
 }
