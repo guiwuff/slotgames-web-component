@@ -57,6 +57,11 @@
           "attr": "name"
         },
         {
+          "name": "scale",
+          "type": "Number",
+          "attr": "scale"
+        },
+        {
           "name": "withText",
           "type": "String",
           "attr": "with-text"

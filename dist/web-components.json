@@ -67,6 +67,11 @@
           "required": false
         },
         {
+          "label": "scale",
+          "description": "The scale of the brand, (default to 1)",
+          "required": false
+        },
+        {
           "label": "with-text",
           "description": "(optional) Display along with the Brand Text",
           "required": false

@@ -78,6 +78,10 @@ export namespace Components {
     */
     'name': string;
     /**
+    * The scale of the brand, (default to 1)
+    */
+    'scale': number;
+    /**
     * (optional) Display along with the Brand Text
     */
     'withText'?: string;
@@ -91,6 +95,10 @@ export namespace Components {
     * Your Brand, (default to 'Brand')
     */
     'name'?: string;
+    /**
+    * The scale of the brand, (default to 1)
+    */
+    'scale'?: number;
     /**
     * (optional) Display along with the Brand Text
     */
