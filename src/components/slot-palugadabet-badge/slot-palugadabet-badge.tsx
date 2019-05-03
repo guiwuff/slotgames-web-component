@@ -1,7 +1,8 @@
 import { Component, Prop } from '@stencil/core';
 
 @Component({
-  tag: 'slot-palugadabet-badge'
+  tag: 'slot-palugadabet-badge',
+  styleUrl: 'slot-palugadabet-badge.css'
 })
 export class SlotPalugadabetBadge {
   cssClasses = 'badge badge-brand text-default';

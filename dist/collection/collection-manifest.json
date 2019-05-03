@@ -70,7 +70,13 @@
       ],
       "componentClass": "SlotPalugadabetBadge",
       "componentPath": "components/slot-palugadabet-badge/slot-palugadabet-badge.js",
-      "styles": {},
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/slot-palugadabet-badge/slot-palugadabet-badge.css"
+          ]
+        }
+      },
       "props": [
         {
           "name": "link",

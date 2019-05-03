@@ -32,6 +32,7 @@ class SlotPalugadabetBadge {
             "attr": "text-mode"
         }
     }; }
+    static get style() { return ".badge-brand{border-radius:.15rem!important;padding:.15rem!important;padding-right:.3rem!important}.badge-brand slot-icon,.badge-brand span{margin:auto}.badge-brand-text{letter-spacing:.05rem}.badge-inner{display:-ms-flexbox;display:flex;-ms-flex:0 0 auto;flex:0 0 auto;-ms-flex-direction:row;flex-direction:row;-ms-flex-line-pack:center;align-content:center;-ms-flex-align:center;align-items:center}"; }
 }
 
 export { SlotPalugadabetBadge };

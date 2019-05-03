@@ -18,7 +18,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stencil/core": "~0.16.2"
+    "@stencil/core": "~0.16.2",
+    "icon-sprites-inject": "git+https://github.com/guiwuff/icon-sprites-inject.git"
   },
   "license": "MIT"
 }

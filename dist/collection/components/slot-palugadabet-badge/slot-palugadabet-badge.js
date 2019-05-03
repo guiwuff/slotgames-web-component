@@ -30,4 +30,5 @@ export class SlotPalugadabetBadge {
             "attr": "text-mode"
         }
     }; }
+    static get style() { return "/**style-placeholder:slot-palugadabet-badge:**/"; }
 }
