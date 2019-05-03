@@ -1,2 +1,2 @@
-import { injectingSprites } from './sprite-injector';
-injectingSprites();
+import { spriteInject } from 'icon-sprites-inject';
+spriteInject(`https://cdn.jsdelivr.net/gh/guiwuff/icon-sprites-inject@latest/dist/assets/sprites.svg`, {});
