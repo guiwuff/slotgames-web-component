@@ -36,6 +36,11 @@
       "description": "",
       "attributes": [
         {
+          "label": "icon-scale",
+          "description": "",
+          "required": false
+        },
+        {
           "label": "link",
           "description": "",
           "required": false

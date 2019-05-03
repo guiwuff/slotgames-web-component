@@ -15,9 +15,7 @@ export class SlotPalugadabet {
   @Prop() name = 'Brand';
   /** The scale of the brand, (default to 1) */
   @Prop() scale = 1;
-
   // TODO: Add Scale to the text
-
   componentWillLoad() {
     if (this.scale != 1) this.iconScale = this.scale * this.iconScale;
   }

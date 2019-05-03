@@ -9,6 +9,8 @@ export class SlotPalugadabetBadge {
 
   @Prop() link = 'https://palugadabet.biz';
   @Prop() name = 'PALUGADABET';
+  @Prop() iconScale = 1;
+
   @Prop() textMode?: string;
 
   componentWillLoad() {
@@ -22,7 +24,7 @@ export class SlotPalugadabetBadge {
     return (
       <a href={this.link} title="Ke Palugadabet" class={this.cssClasses}>
         <div class="badge-inner">
-          <slot-icon icon="ace" fill='currentColor' scale={1.1}></slot-icon>
+          <slot-icon icon="ace" fill='currentColor' stroke='none' scale={this.iconScale}></slot-icon>
           <span class="ml-1 my-auto pt-1">{this.name}</span>
         </div>
       </a>

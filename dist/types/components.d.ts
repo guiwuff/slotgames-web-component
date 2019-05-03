@@ -58,11 +58,13 @@ export namespace Components {
   }
 
   interface SlotPalugadabetBadge {
+    'iconScale': number;
     'link': string;
     'name': string;
     'textMode'?: string;
   }
   interface SlotPalugadabetBadgeAttributes extends StencilHTMLAttributes {
+    'iconScale'?: number;
     'link'?: string;
     'name'?: string;
     'textMode'?: string;

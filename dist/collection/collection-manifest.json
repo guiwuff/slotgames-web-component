@@ -84,6 +84,11 @@
       },
       "props": [
         {
+          "name": "iconScale",
+          "type": "Number",
+          "attr": "icon-scale"
+        },
+        {
           "name": "link",
           "type": "String",
           "attr": "link"
